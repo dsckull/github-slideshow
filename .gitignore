@@ -1,4 +1,92 @@
-_site/
-.sass-cache/
-.jekyll-metadata
-.bundle
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+server/dist/
+client/dist/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+lerna-debug.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.envrc
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# TypeScript cache files
+*.tsbuildinfo
+
+# Test output
+coverage/
+.nyc_output/
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variable files
+.env.development
+.env.production
+.env.test
+
+# Gatsby files
+.cache/
+public
+
+# Next.js files
+.next/
+out/
+
+# Remix files
+.cache/
+build/
+public/build/
+
+# Nuxt.js files
+.nuxt/
+dist/
+
+# Docusaurus files
+.docusaurus/
+build/
+
+# VuePress files
+.vuepress/dist
+.vuepress/public
+
+# Parcel cache files
+.cache
+dist/
+
+# SvelteKit files
+.svelte-kit/
+build/
+.vercel/
+
+# Temporary files
+tmp/
+temp/
